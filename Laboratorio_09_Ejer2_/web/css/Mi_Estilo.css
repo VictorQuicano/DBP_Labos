@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 jun. 2022, 14:31:22
+    Author     : Alejandro
+*/
+*{
+    font-family: sans-serif;
+    text-align: center;
+}
+body{
+    background-color: rgb(240, 240, 240)
+}
+#contiene{
+    display:flex;
+    justify-content: center;
+}
+.contieneT{
+    display:flex;
+    justify-content: center;
+}
+.tablaRelleno{
+    background-color: rgb(50, 50, 50);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(221, 221, 221, 0.484), 0 8px 16px rgba(241, 241, 241, 0.411);
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 526px;
+}
+.col_50{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.campo{
+    width: 85%;
+    border-radius: 5px;
+    border-color:rgb(155, 155, 155);
+    border: solid 1px;
+}
+#btnAgregar{
+    margin: 12px 0px 0px 0px;
+    background-color: #42b72a;
+    border:none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    width: 85%;
+    height: 40px;
+    font-size: 25px;
+    color: #fff;
+}
+.btnEliminar{
+    background-color: #ec2424;
+    border:none;
+    font-weight: bold;
+    color: #fff;
+}
+.tabla{
+    border-collapse: collapse;
+    margin: auto;
+}
+.tablaDat{
+    border-collapse: collapse;
+    margin: auto;
+}
+.tabla thead{
+    background-color: rgb(53, 162, 166);
+    color: white;
+}
+.tabla tr{
+    border-bottom: 1px solid cadetblue;
+}
+.tabla th, .tabla td{
+    border: none;
+    padding: 8px 20px;
+}
+#cabe{
+    background-color: rgb(53, 162, 166);
+    color: white;
+}
+.tabla_datos{
+    margin: auto;
+}
+td{
+    background: rgb(240, 240, 240);
+    color:black;
+}
+input{
+    font-size: 20px;
+}
