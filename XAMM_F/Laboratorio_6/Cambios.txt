@@ -1,0 +1,2 @@
+*Se logró la conexión con la base de datos, no se ingresa la información hasta que se cumpla las condiciones necesarias. No obstante, losmensajes no se muestran con Alerts, sino dentro de DIVS
+*

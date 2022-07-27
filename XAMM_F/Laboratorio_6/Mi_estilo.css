@@ -1,0 +1,98 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+}
+body{
+    background-color: rgb(240, 240, 240)
+}
+#contiene{
+    display:flex;
+    justify-content: center;
+}
+.tablaRelleno{
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin: 40px 0 0;
+    padding: 10px 0 10px;
+    width: 526px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column
+}
+.correcto{
+    background-color: #42b72a;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(26, 83, 37, 0.175), 0 8px 16px rgba(22, 61, 42, 0.1);
+    margin: 40px 0px 20px 0px;
+    padding: 20px;
+    width: 526px;
+    height: auto;
+}
+.error{
+    background-color: rgb(249, 16, 16);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(43, 21, 21, 0.1), 0 8px 16px rgba(61, 22, 22, 0.1);
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 526px;
+    height: auto;
+}
+.col_50{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.campo{
+    width: 85%;
+    border-radius: 5px;
+    border-color:rgb(155, 155, 155);
+    border: solid 1px;
+}
+#btnAgregar{
+    margin: 12px 0px 0px 0px;
+    background-color: #42b72a;
+    border:none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    width: 85%;
+    height: 40px;
+    font-size: 25px;
+    color: #fff;
+}
+.btnEliminar{
+    background-color: #ec2424;
+    border:none;
+    font-weight: bold;
+    color: #fff;
+}
+.tabla{
+    border-collapse: collapse;
+    margin: auto;
+}
+.tablaDat{
+    border-collapse: collapse;
+    margin: auto;
+}
+.tabla thead{
+    background-color: rgb(53, 162, 166);
+    color: white;
+}
+.tabla tr{
+    border-bottom: 1px solid cadetblue;
+}
+.tabla th, .tabla td{
+    border: none;
+    padding: 8px 20px;
+}
+.tabla_datos{
+    margin: auto;
+}
+input{
+    font-size: 20px;
+}
